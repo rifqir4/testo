@@ -1,0 +1,66 @@
+.v-navbar {
+    height: 100vh;
+    width: 200px;
+    float: left;
+    position: fixed;
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0px 2px 15px 2px rgba(0,0,0,0.2);
+    border: 1px solid #999999;
+}
+
+.v-navbar .content{
+    width: 198px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    border-bottom: 1px solid #999999;
+}
+
+.v-navbar .content:hover{
+    background-color: #999999;
+}
+
+.v-navbar #judul {
+    font-size: 20px;
+    padding: 10px 5px;
+    background: white;
+}
+
+.v-navbar a{
+    text-decoration: none;
+}
+.dasboard-content {
+    width: available;
+    padding: 20px;
+    padding-left: 220px ;
+    color: #999999;
+}
+
+.dasboard-content h1{
+    color: black;
+    font-size: 30px;
+}
+
+.box {
+    width: 100%;
+    border: 1px #5e5e5e solid;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.box h1, p {
+    font-size: 15px;
+}
+
+.box p {
+    color: black;
+}
+
+.box a{
+    position: relative;
+}
+.box img{
+    position: relative;
+    width: 200px;
+}
